@@ -1,0 +1,151 @@
+*{margin:0px;
+padding:0px;}
+.body{
+	width:80%;
+	margin:5% 10% 5%;
+}
+.header{
+	background: skyblue;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+ul{
+	display: inline;
+}
+.header a{
+	width:100%;
+	text-decoration: none;
+	margin-left: 10px;
+	color:white;
+	font-size: 20px;
+	
+}
+.order{
+	overflow: hidden;
+}
+
+body{
+	background:lightgrey;
+}
+.white{
+	margin-top: 25;
+	width:100%;
+	background: white;
+	border-radius: 10px;
+	max-height: auto;
+	overflow: hidden;
+}
+.whiteright{
+    float: left;
+	width:70%;
+	line-height: 40px;
+	margin:20px;
+}
+.white a{
+
+    font-size: 25px;
+    margin-top: 25%;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.whiteleft a{
+	font-size: 16px;
+}
+.whiteleft h1{
+	font-weight: bold;
+	margin-top: 10%;
+	font-size: 25px;
+	margin-left: 5px;
+	overflow: hidden;
+
+}
+.grey{
+	margin-top: 20%;
+	background: lightgrey;
+	overflow: hidden;
+	line-height: 40px;
+	margin-right: 5px;
+	text-align: center;
+	border-radius: 10px;
+}
+.grey h2{
+	font-size: 20px;
+}
+.footer{
+	text-align: center;
+	background: skyblue;
+	color:white;
+	margin-top: 25;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+.body{
+	padding-right: 20px;
+	width:85%;
+	margin: 0% 10% 5%;
+}
+	.header a{
+	width:100%;
+
+	text-decoration: none;
+	margin-left: 10px;
+	color:white;
+	font-size: 20px;
+	
+}
+.header{
+	border-radius: 0px 0px 10px 10px;
+
+}
+.order{
+	width:100;
+	line-height: 2;
+	text-align: center;
+	margin-left: 40%;
+}
+ ul{
+ 	display:inline-block;
+ 	text-align: center;
+ }
+ .white{
+ 	border-radius:0px;
+ 	
+ }
+ .whiteright{
+ 	width: 90%;
+ 	margin-top: 0px;
+ 	line-height: 2;
+ 	margin-right:5%;
+ 	overflow: hidden;
+ }
+ .whiteleft{
+ 	width:100%;
+ 	margin-left: 10;
+
+ }
+ .whiteleft a{
+ 	text-align: left;
+ }
+.grey{
+	border:1px solid dimgrey;
+
+	width:97%;
+	border-radius: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+} 
+@media only screen and (max-width: 425px) {
+
+	.order{
+		margin-left: 30%;
+	}
+	.grey{
+		width: 90%;
+	}
+}
